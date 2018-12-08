@@ -1,0 +1,20 @@
+hash: 32c8ffd3ae85554a3c20c0bc31ba1b225e53d57f08ce1ee67dd48ec8d32d2f42
+updated: 2018-12-08T10:24:55.544806+07:00
+imports:
+- name: github.com/go-sql-driver/mysql
+  version: d523deb1b23d913de5bdada721a6071e71283618
+  repo: https://github.com/go-sql-driver/mysql
+  vcs: git
+- name: github.com/go-xorm/builder
+  version: a9b7ffcca3f0c6445c4e3b1bf72c01578817a6c3
+- name: github.com/go-xorm/core
+  version: f43c33d9a48db006417a7ac4c16b08897e3e1458
+- name: github.com/go-xorm/xorm
+  version: fc1b13e0d8e240788213230aa5747eb557f80f41
+  repo: https://github.com/go-xorm/xorm
+  vcs: git
+- name: google.golang.org/appengine
+  version: ae0ab99deb4dc413a2b4bd6c8bdd0eb67f1e4d06
+  subpackages:
+  - cloudsql
+testImports: []

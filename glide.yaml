@@ -1,0 +1,11 @@
+package: github.com/db-mysql
+import:
+- package: github.com/go-xorm/xorm
+  version: v0.6.6
+  repo:    https://github.com/go-xorm/xorm
+  vcs:     git
+- package: github.com/go-sql-driver/mysql
+  version: v1.4.0
+  repo:    https://github.com/go-sql-driver/mysql
+  vcs:     git
+  subpackages:
