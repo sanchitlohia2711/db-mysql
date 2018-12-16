@@ -1,5 +1,5 @@
-hash: 32c8ffd3ae85554a3c20c0bc31ba1b225e53d57f08ce1ee67dd48ec8d32d2f42
-updated: 2018-12-08T10:24:55.544806+07:00
+hash: c9ffde093d9b081628cf806d8e1c65a8020fd3a29ea00cabff1e6c957b3af23a
+updated: 2018-12-16T17:05:41.79546+07:00
 imports:
 - name: github.com/go-sql-driver/mysql
   version: d523deb1b23d913de5bdada721a6071e71283618
@@ -13,6 +13,12 @@ imports:
   version: fc1b13e0d8e240788213230aa5747eb557f80f41
   repo: https://github.com/go-xorm/xorm
   vcs: git
+- name: github.com/jinzhu/gorm
+  version: 472c70caa40267cb89fd8facb07fe6454b578626
+  repo: https://github.com/jinzhu/gorm
+  vcs: git
+- name: github.com/jinzhu/inflection
+  version: 04140366298a54a039076d798123ffa108fff46c
 - name: google.golang.org/appengine
   version: ae0ab99deb4dc413a2b4bd6c8bdd0eb67f1e4d06
   subpackages:

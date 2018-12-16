@@ -1,17 +1,12 @@
 package db
 
-import (
-	"fmt"
-)
-
 //InsertOne : insert one record
 func InsertOne(tableName string, obj interface{}) (err error) {
 	sess := NewSQLSession()
 	defer sess.Close()
 
 	sess = sess.Table(tableName)
-	s, err := sess.InsertOne(obj)
-	fmt.Println(s)
+	_, err = sess.InsertOne(obj)
 	return
 }
 

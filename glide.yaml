@@ -8,4 +8,8 @@ import:
   version: v1.4.0
   repo:    https://github.com/go-sql-driver/mysql
   vcs:     git
+- package: github.com/jinzhu/gorm
+  version: v1.9.2
+  repo:    https://github.com/jinzhu/gorm
+  vcs:     git
   subpackages:
