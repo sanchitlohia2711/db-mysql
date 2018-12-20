@@ -18,6 +18,7 @@ const (
 
 var (
 	engine = &xorm.Engine{}
+	gormDB = &gorm.DB{}
 )
 
 //MySQLParamsStruct : mysql params struct
@@ -57,6 +58,11 @@ func InitializeGorm(p *MySQLParamsStruct) (gormDB *gorm.DB, err error) {
 		return
 	}
 	return
+}
+
+//GormDB get gorm db
+func GormDB() *gorm.DB {
+	return gormDB
 }
 
 //NewSQLSession : create new sql session
